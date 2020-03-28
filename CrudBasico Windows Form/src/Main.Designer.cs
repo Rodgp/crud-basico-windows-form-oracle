@@ -274,13 +274,13 @@
             // modeloToolStripMenuItem
             // 
             this.modeloToolStripMenuItem.Name = "modeloToolStripMenuItem";
-            this.modeloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modeloToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.modeloToolStripMenuItem.Text = "Modelo";
             // 
             // maquinaToolStripMenuItem
             // 
             this.maquinaToolStripMenuItem.Name = "maquinaToolStripMenuItem";
-            this.maquinaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.maquinaToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.maquinaToolStripMenuItem.Text = "Maquina";
             // 
             // lblPesquisa
@@ -338,8 +338,10 @@
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.dgDados);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crud Básico";

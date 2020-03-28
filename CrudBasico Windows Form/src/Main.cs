@@ -31,6 +31,7 @@ namespace CrudBasico_Windows_Form
             adicionaCampos();
             limparCelulas();
 
+
             ofSelecionaImagem = new OpenFileDialog()
             {
                 FileName = "",
@@ -134,7 +135,8 @@ namespace CrudBasico_Windows_Form
             }
             else
             {
-                pbFoto.Image = null;
+                pbFoto.Image = Image.FromFile(@"Z:\TI\PROJETOS\CrudBasico Windows Form\midia/imgDefault.png");
+
             }
         }
 

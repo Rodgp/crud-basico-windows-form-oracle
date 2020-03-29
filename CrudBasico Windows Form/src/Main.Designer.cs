@@ -64,7 +64,7 @@
             this.btnCadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCadastrar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
             this.btnCadastrar.ForeColor = System.Drawing.Color.White;
-            this.btnCadastrar.Location = new System.Drawing.Point(213, 92);
+            this.btnCadastrar.Location = new System.Drawing.Point(306, 168);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(83, 32);
             this.btnCadastrar.TabIndex = 1;
@@ -75,28 +75,28 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(7, 24);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(175, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 30);
+            this.label1.Size = new System.Drawing.Size(88, 21);
             this.label1.TabIndex = 2;
             this.label1.Text = "Hostname";
             // 
             // txtHostname
             // 
             this.txtHostname.BackColor = System.Drawing.SystemColors.Window;
-            this.txtHostname.Location = new System.Drawing.Point(12, 57);
+            this.txtHostname.Location = new System.Drawing.Point(179, 73);
             this.txtHostname.Name = "txtHostname";
-            this.txtHostname.Size = new System.Drawing.Size(108, 20);
+            this.txtHostname.Size = new System.Drawing.Size(154, 20);
             this.txtHostname.TabIndex = 3;
             this.txtHostname.Tag = "hostname";
             this.txtHostname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtIP
             // 
-            this.txtIP.Location = new System.Drawing.Point(138, 57);
+            this.txtIP.Location = new System.Drawing.Point(178, 131);
             this.txtIP.Name = "txtIP";
-            this.txtIP.Size = new System.Drawing.Size(100, 20);
+            this.txtIP.Size = new System.Drawing.Size(154, 20);
             this.txtIP.TabIndex = 5;
             this.txtIP.Tag = "ip";
             this.txtIP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -124,7 +124,7 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgDados.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dgDados.Location = new System.Drawing.Point(12, 161);
+            this.dgDados.Location = new System.Drawing.Point(12, 215);
             this.dgDados.MultiSelect = false;
             this.dgDados.Name = "dgDados";
             this.dgDados.ReadOnly = true;
@@ -136,15 +136,15 @@
             this.dgDados.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgDados.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dgDados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgDados.Size = new System.Drawing.Size(629, 141);
+            this.dgDados.Size = new System.Drawing.Size(532, 141);
             this.dgDados.TabIndex = 0;
             this.dgDados.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgDados_CellClick);
             // 
             // txtSetor
             // 
-            this.txtSetor.Location = new System.Drawing.Point(386, 57);
+            this.txtSetor.Location = new System.Drawing.Point(366, 131);
             this.txtSetor.Name = "txtSetor";
-            this.txtSetor.Size = new System.Drawing.Size(100, 20);
+            this.txtSetor.Size = new System.Drawing.Size(154, 20);
             this.txtSetor.TabIndex = 7;
             this.txtSetor.Tag = "setor";
             this.txtSetor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -155,36 +155,39 @@
             this.pbFoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbFoto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pbFoto.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pbFoto.Location = new System.Drawing.Point(504, 12);
+            this.pbFoto.Location = new System.Drawing.Point(16, 40);
             this.pbFoto.Name = "pbFoto";
-            this.pbFoto.Size = new System.Drawing.Size(135, 121);
+            this.pbFoto.Size = new System.Drawing.Size(143, 132);
             this.pbFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbFoto.TabIndex = 9;
             this.pbFoto.TabStop = false;
             // 
             // lblCarregaFoto
             // 
+            this.lblCarregaFoto.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.lblCarregaFoto.AutoSize = true;
             this.lblCarregaFoto.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.lblCarregaFoto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblCarregaFoto.Font = new System.Drawing.Font("Segoe UI Historic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCarregaFoto.Font = new System.Drawing.Font("Segoe UI Historic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCarregaFoto.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblCarregaFoto.Location = new System.Drawing.Point(511, 136);
+            this.lblCarregaFoto.Location = new System.Drawing.Point(13, 175);
             this.lblCarregaFoto.Name = "lblCarregaFoto";
-            this.lblCarregaFoto.Size = new System.Drawing.Size(119, 20);
+            this.lblCarregaFoto.Padding = new System.Windows.Forms.Padding(32, 5, 39, 5);
+            this.lblCarregaFoto.Size = new System.Drawing.Size(145, 25);
             this.lblCarregaFoto.TabIndex = 11;
-            this.lblCarregaFoto.Text = "Adicionar foto";
+            this.lblCarregaFoto.Text = "Altera foto\r\n";
             this.lblCarregaFoto.Click += new System.EventHandler(this.lblCarregaFoto_Click);
             // 
             // btnDeletar
             // 
             this.btnDeletar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnDeletar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDeletar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.btnDeletar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
             this.btnDeletar.ForeColor = System.Drawing.Color.White;
-            this.btnDeletar.Location = new System.Drawing.Point(346, 92);
+            this.btnDeletar.Location = new System.Drawing.Point(437, 168);
             this.btnDeletar.Name = "btnDeletar";
-            this.btnDeletar.Size = new System.Drawing.Size(75, 32);
+            this.btnDeletar.Size = new System.Drawing.Size(83, 32);
             this.btnDeletar.TabIndex = 12;
             this.btnDeletar.Text = "Deletar";
             this.btnDeletar.UseVisualStyleBackColor = false;
@@ -197,9 +200,9 @@
             this.btnVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVoltar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVoltar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnVoltar.Location = new System.Drawing.Point(94, 92);
+            this.btnVoltar.Location = new System.Drawing.Point(178, 168);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(75, 32);
+            this.btnVoltar.Size = new System.Drawing.Size(83, 32);
             this.btnVoltar.TabIndex = 13;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = false;
@@ -208,9 +211,9 @@
             // 
             // txtModelo
             // 
-            this.txtModelo.Location = new System.Drawing.Point(262, 57);
+            this.txtModelo.Location = new System.Drawing.Point(367, 73);
             this.txtModelo.Name = "txtModelo";
-            this.txtModelo.Size = new System.Drawing.Size(108, 20);
+            this.txtModelo.Size = new System.Drawing.Size(154, 20);
             this.txtModelo.TabIndex = 14;
             this.txtModelo.Tag = "modelo";
             this.txtModelo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -218,30 +221,30 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(147, 24);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(175, 107);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 30);
+            this.label2.Size = new System.Drawing.Size(62, 21);
             this.label2.TabIndex = 16;
             this.label2.Text = "End. IP";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(272, 24);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(363, 49);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 30);
+            this.label3.Size = new System.Drawing.Size(69, 21);
             this.label3.TabIndex = 17;
             this.label3.Text = "Modelo";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(404, 24);
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(363, 107);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 30);
+            this.label5.Size = new System.Drawing.Size(50, 21);
             this.label5.TabIndex = 18;
             this.label5.Text = "Setor";
             // 
@@ -252,7 +255,7 @@
             this.cadastrosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(653, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(556, 24);
             this.menuStrip1.TabIndex = 19;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -286,7 +289,7 @@
             // lblPesquisa
             // 
             this.lblPesquisa.BackColor = System.Drawing.SystemColors.Window;
-            this.lblPesquisa.Location = new System.Drawing.Point(94, 324);
+            this.lblPesquisa.Location = new System.Drawing.Point(243, 364);
             this.lblPesquisa.Name = "lblPesquisa";
             this.lblPesquisa.Size = new System.Drawing.Size(93, 20);
             this.lblPesquisa.TabIndex = 20;
@@ -297,9 +300,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(183, 322);
+            this.button1.Location = new System.Drawing.Point(332, 362);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(27, 23);
+            this.button1.Size = new System.Drawing.Size(27, 22);
             this.button1.TabIndex = 21;
             this.button1.Text = "Ir";
             this.button1.UseVisualStyleBackColor = true;
@@ -309,7 +312,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 322);
+            this.label4.Location = new System.Drawing.Point(156, 364);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(81, 20);
             this.label4.TabIndex = 22;
@@ -319,7 +322,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(653, 351);
+            this.ClientSize = new System.Drawing.Size(556, 393);
+            this.Controls.Add(this.lblCarregaFoto);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblPesquisa);
@@ -329,7 +333,6 @@
             this.Controls.Add(this.txtModelo);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnDeletar);
-            this.Controls.Add(this.lblCarregaFoto);
             this.Controls.Add(this.pbFoto);
             this.Controls.Add(this.txtSetor);
             this.Controls.Add(this.txtIP);
